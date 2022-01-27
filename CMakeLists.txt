@@ -4,7 +4,7 @@ if (NOT DEFINED CMAKE_CXX_COMPILER)
 endif()
 
 project(StarkwareCryptoLib VERSION 0.1.0 LANGUAGES CXX)
-include_directories("${CMAKE_SOURCE_DIR}/src")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/src")
 
 if (NOT DEFINED CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Debug)
